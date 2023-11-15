@@ -1,34 +1,4 @@
 {
-    "header 1": {
-        "prefix": "h1",
-        "body": ["# ${0}"],
-        "description": "Add header level 1"
-    },
-    "header 2": {
-        "prefix": "h2",
-        "body": ["## ${0}"],
-        "description": "Add header level 2"
-    },
-    "header 3": {
-        "prefix": "h3",
-        "body": ["### ${0}"],
-        "description": "Add header level 3"
-    },
-    "header 4": {
-        "prefix": "h4",
-        "body": ["#### ${0}"],
-        "description": "Add header level 4"
-    },
-    "header 5": {
-        "prefix": "h5",
-        "body": ["##### ${0}"],
-        "description": "Add header level 5"
-    },
-    "header 6": {
-        "prefix": "h6",
-        "body": ["###### ${0}"],
-        "description": "Add header level 6"
-    },
     "Links": {
         "prefix": ["l", "link"],
         "body": ["[${1:text}](${2:url}) ${0}"],
@@ -88,11 +58,6 @@
         "prefix": "ordered list",
         "body": ["1. ${1:first}", "2. ${2:second}", "3. ${3:third}", "$0"],
         "description": "Insert ordered list"
-    },
-    "Insert horizontal rule": {
-        "prefix": "horizontal rule",
-        "body": "----------\n",
-        "description": "Insert horizontal rule"
     },
     "Insert task list": {
         "prefix": "task",
