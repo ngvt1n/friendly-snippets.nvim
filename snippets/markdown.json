@@ -79,6 +79,11 @@
         "body": ["```${1:language}", "$0", "```"],
         "description": "Insert fenced code block"
     },
+    "Insert comment": {
+        "prefix": ["com","comment"],
+        "body": "<!--${1}--> $0",
+        "description": "Insert comment"
+    },
     "Insert task list 3": {
         "prefix": "task3",
         "body": [
