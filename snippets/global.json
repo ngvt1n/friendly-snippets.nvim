@@ -1,4 +1,29 @@
 {
+  "arrdown": {
+    "prefix": ["decreases", "arrdown"], 
+    "body": ["↓"],
+    "description": "Arrow down"
+  },
+  "arrup": {
+    "prefix": ["increases", "arrup"], 
+    "body": ["↑"],
+    "description": "Arrow up"
+  },
+  "arrleft": {
+    "prefix": "arrleft", 
+    "body": ["→ "],
+    "description": "Arrow left"
+  },
+  "arrboth": {
+    "prefix": "arrboth", 
+    "body": ["⇆ "],
+    "description": "Arrow both"
+  },
+  "arrwiggly": {
+    "prefix": "arrrwiggly", 
+    "body": ["~-> "],
+    "description": "Arrow wiggly"
+  },
   "copyright": {
     "prefix": "c)",
     "body": ["Copyright (c) ${CURRENT_YEAR} ${0:Author}. All Rights Reserved."],
