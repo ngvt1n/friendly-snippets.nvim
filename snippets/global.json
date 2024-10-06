@@ -1,11 +1,11 @@
 {
   "arrdown": {
-    "prefix": ["decreases", "arrdown"], 
+    "prefix": "decreases",
     "body": ["↓"],
     "description": "Arrow down"
   },
   "arrup": {
-    "prefix": ["increases", "arrup"], 
+    "prefix": "increases",
     "body": ["↑"],
     "description": "Arrow up"
   },
