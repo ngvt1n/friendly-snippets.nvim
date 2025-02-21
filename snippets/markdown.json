@@ -1,27 +1,22 @@
 {
   "arrdown": {
-    "prefix": "decreases",
+    "prefix": "down",
     "body": ["↓"],
     "description": "Arrow down"
   },
   "arrup": {
-    "prefix": "increases",
+    "prefix": "up",
     "body": ["↑"],
     "description": "Arrow up"
   },
   "arrleft": {
-    "prefix": "arrleft",
+    "prefix": "->",
     "body": ["→ "],
     "description": "Arrow left"
   },
-  "arrboth": {
-    "prefix": "arrboth",
-    "body": ["⇆ "],
-    "description": "Arrow both"
-  },
   "arrwiggly": {
-    "prefix": "arrrwiggly",
-    "body": ["~-> "],
+    "prefix": "-->",
+    "body": ["~~> "],
     "description": "Arrow wiggly"
   },
   "copyright": {
@@ -44,53 +39,8 @@
     "body": ["${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}"],
     "description": "I give you back the time (H:M:S)"
   },
-  "Lorem Ipsum Sentence": {
-    "prefix": "loremSent",
-    "body": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    "description": "Lorem Ipsum Sentence"
-  },
-  "Lorem Ipsum Paragraph": {
-    "prefix": "loremPara",
-    "body": "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.",
-    "description": "Lorem Ipsum Paragraph"
-  },
-  "header 1": {
-    "prefix": "h1",
-    "body": ["# ${0}"],
-    "description": "Add header level 1"
-  },
-  "header 2": {
-    "prefix": "h2",
-    "body": ["## ${0}"],
-    "description": "Add header level 2"
-  },
-  "header 3": {
-    "prefix": "h3",
-    "body": ["### ${0}"],
-    "description": "Add header level 3"
-  },
-  "header 4": {
-    "prefix": "h4",
-    "body": ["#### ${0}"],
-    "description": "Add header level 4"
-  },
-  "header 5": {
-    "prefix": "h5",
-    "body": ["##### ${0}"],
-    "description": "Add header level 5"
-  },
-  "header 6": {
-    "prefix": "h6",
-    "body": ["###### ${0}"],
-    "description": "Add header level 6"
-  },
   "Links": {
     "prefix": ["l", "link"],
-    "body": ["[${1:text}](${2:url}) ${0}"],
-    "description": "Add links"
-  },
-  "URLS": {
-    "prefix": ["u", "url"],
     "body": ["<${1}> ${0}"],
     "description": "Add urls"
   },
@@ -114,11 +64,6 @@
     "body": "*${1}* $0",
     "description": "Insert italic text"
   },
-  "Insert bold and italic text": {
-    "prefix": ["bold and italic", "bi"],
-    "body": "***${1}*** $0",
-    "description": "Insert bold and italic text"
-  },
   "Insert quoted text": {
     "prefix": "quote",
     "body": "> ${1}",
@@ -133,11 +78,6 @@
     "prefix": "codeblock",
     "body": ["```${1:language}", "$0", "```"],
     "description": "Insert fenced code block"
-  },
-  "Insert comment": {
-    "prefix": ["com", "comment"],
-    "body": "<!--${1}--> $0",
-    "description": "Insert comment"
   },
   "Insert task list 3": {
     "prefix": "task3",
@@ -412,29 +352,4 @@
     ],
     "description": "Insert table with 5 rows and 5 columns. First row is heading."
   },
-  "Insert Note": {
-    "prefix": ["note", "n"],
-    "body": "> [!NOTE]\n> ",
-    "description": "Insert Note"
-  },
-  "Insert Tip": {
-    "prefix": ["tip", "t"],
-    "body": "> [!TIP]\n> ",
-    "description": "Insert Tip"
-  },
-  "Insert Important": {
-    "prefix": ["important", "imp"],
-    "body": "> [!IMPORTANT]\n> ",
-    "description": "Insert Important"
-  },
-  "Insert Warning": {
-    "prefix": ["warning", "w"],
-    "body": "> [!WARNING]\n> ",
-    "description": "Insert Warning"
-  },
-  "Insert Caution": {
-    "prefix": ["caution", "c"],
-    "body": "> [!CAUTION]\n> ",
-    "description": "Insert Caution"
-  }
 }
