@@ -351,5 +351,5 @@
       "${0}"
     ],
     "description": "Insert table with 5 rows and 5 columns. First row is heading."
-  },
+  }
 }
